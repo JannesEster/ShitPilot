@@ -17,6 +17,15 @@ body {
     
 }
 
+#imageHolder {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 300px;
+  top: 200px; /* Or perhaps different coordinates */
+  display: none;
+}
+
 .btn-xl {
     
     font-size: 30px;
