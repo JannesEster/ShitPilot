@@ -18,11 +18,12 @@ body {
 }
 
 #imageHolder {
-  width: 500px;
+  width: 800px;
   height: auto;
   position: absolute;
-  left: 300px;
-  top: 200px; /* Or perhaps different coordinates */
+  left: 50%;
+  top: 50% ;
+  transform: translate(-50%,-50%);
   display: none;
 }
 
