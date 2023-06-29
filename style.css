@@ -18,7 +18,7 @@ body {
 }
 
 #imageHolder {
-  width: 800px;
+  width: 75%;
   height: auto;
   position: absolute;
   left: 50%;
@@ -103,6 +103,8 @@ body {
 
   table {
     font-family: arial, sans-serif;
+    table-layout: fixed;
+    
     
     
   }
@@ -111,5 +113,6 @@ body {
     border: 1px solid #080808;
     text-align: right;
     padding: 10px;
+    white-space: nowrap;
     
   }
