@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(3, 3, 3);
+    background-color: rgb(0, 0, 0);
     color: white;
 
 }
@@ -15,6 +15,24 @@ body {
     background-color: #000000;
 
     
+}
+#NopeVidHolder {
+  width: 75%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50% ;
+  transform: translate(-50%,-50%);
+  display: none;
+
+
+}
+#TryAgain {
+  position: absolute;
+  left: 50%;
+  top: 20% ;
+  transform: translate(-50%,-50%);
+  display: none;
 }
 
 #imageHolder {
@@ -110,7 +128,7 @@ body {
   }
   
     th {
-    border: 1px solid #080808;
+    border: 1px solid #000000;
     text-align: right;
     padding: 10px;
     white-space: nowrap;
